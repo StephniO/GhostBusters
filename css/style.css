@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #363636;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 34px;
+  height: 95px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.line {
+  height: 100%;
+  width: 1px;
+  background-color: #d4d4d4;
+  margin-left: 34px;
+}
+.search-imput {
+  background-image: url(../img/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  border: none;
+  padding-left: 38px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #a5a5a5;
+  margin-left: 34px;
+}
+.navigaion {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 44px;
+  margin-left: auto;
+}
+.navigation-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+  margin-right: 18px;
+}
+.button-group {
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.button {
+  height: 100%;
+  cursor: pointer;
+}
+.sign-up {
+  color: #5671f6;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  background-color: #fff;
+  padding-left: 34px;
+  padding-right: 34px;
+  border-left: 1px solid #d4d4d4;
+}
+.login {
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  background-color: #5671f6;
+  border: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.m-munu-button {
+  width: 20px;
+  height: 20px;
+}
+.meu-line {
+  display: block;
+  width: 16px;
+  height: 1px;
+  background-color: #000;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.container {
+  max-width: 1130px;
+  margin: auto;
+}
+.mobile-buttons {
+  display: none;
+}
+.film {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #d4d4d4;
+}
+.film-wrapper {
+  display: flex;
+}
+.film-trailer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+.poster {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 350px;
+}
+.trailer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 0px 0px 5px 5px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  cursor: pointer;
+}
+.trailer-button-icon {
+  margin-right: 14px;
+}
+.film-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.film-text {
+  max-width: 516px;
+}
+.film-subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #a5a5a5;
+  margin-bottom: 32px;
+}
+.film-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  max-width: 150%;
+  margin-bottom: 50px;
+}
+.about-film {
+  display: flex;
+  margin-bottom: 50px;
+}
+.about-text {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+.about-text-bold {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  font-weight: bold;
+}
+.about-regular {
+  vertical-align: top;
+}
+.left-side {
+  margin-right: 40px;
+}
+.reiting {
+  display: flex;
+  align-items: center;
+}
+.reiting-counter {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5671f6;
+  border-radius: 10px;
+  margin-right: 28px;
+  color: #5671f6;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+}
+.reiting-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.raiting-text {
+  display: flex;
+  margin-bottom: 7px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.reiting-text-boid {
+  font-weight: bold;
+}
+.cast {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.section-title {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #a5a5a5;
+  margin-right: 30px;
+  font-weight: 400;
+}
+.section-title.active {
+  color: #363636;
+  font-weight: 900;
+}
+.tabs-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin-bottom: 35px;
+}
+.card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.name {
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671f6;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.en-name {
+  color: #a5a5a5;
+}
+.news {
+  background-color: #f3f3f3;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news-card {
+  flex-basis: 23%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+.section-news-title {
+  font-weight: 900;
+  color: #000000;
+  margin-bottom: 65px;
+}
+.news-title {
+  margin-top: 14px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    margin-left: 50%;
+  }
+  .header {
+    height: 90px;
+    padding-left: 20px;
+  }
+  .sign-up {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .card-image {
+    min-width: 70px;
+    min-height: 70px;
+  }
+  .navigation-link {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .navigation {
+    margin-right: 20px;
+  }
+  .search-imput {
+    margin-left: 20px;
+  }
+  .line {
+    margin-left: 20px;
+  }
+  .cast {
+    max-width: 960px;
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 760px;
+    margin-left: 30%;
+  }
+  .film-title {
+    font-size: 24px;
+    line-height: 1.4px;
+  }
+  .film-subtitle {
+    margin-bottom: 20px;
+  }
+  .film-description,
+  .about-film {
+    margin-bottom: 30px;
+  }
+  .about-text-bold {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card-image {
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .card {
+    flex-basis: 50%;
+  }
+  .news-card {
+    flex-basis: 48%;
+    margin-bottom: 50px;
+  }
+  .navigaion {
+    display: none;
+  }
+}
+@media (max-width: 576 px) {
+  body {
+    background-color: #000;
+  }
+  .mobile-buttons {
+    display: flex;
+  }
+  .m-munu-button {
+    display: block;
+  }
+  .container {
+    width: 95%;
+  }
+  .button-group {
+    display: none;
+  }
+  .line:after {
+    display: none;
+  }
+  .search-imput {
+    display: none;
+  }
+  .film-trailer,
+  .poster {
+    width: 100%;
+  }
+  .film-text {
+    order: 1;
+    margin-bottom: 0;
+  }
+}
